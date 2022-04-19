@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: orange;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    z-index: 1;
+    margin-bottom: 50px;
+}
+
+.content-nav {
+    width: 1260px;
+    height: 70px;
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    background-image: url("../img/boolean-logo.png");
+    width: 150px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container-cards {
+    width: 1260px;
+    max-height: 100%;
+    margin: 0 auto;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    padding-top: 100px;
+}
+
+.card {
+    width: calc(100% / 3 - 10px);
+    max-height: 100%;
+}
+.card-img{
+    position: relative;
+}
+.card-img img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.img-bot-text{
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+    display: flex;
+    gap: 5px;
+    color: white;
+}
+
+.sconto{
+    background-color: red;
+    padding: 5px;
+}
+
+.sostenibilita{
+    background-color: green;
+    padding: 5px;
+}
+.heart{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background-color: white;
+}
+
+footer{
+    margin-top: 50px;
+    width: 100%;
+    background-color: black;
+}
+
+.container-footer{
+    width: 1260px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.footer-text{
+    color: white;
+}
+
+.white{
+    color: white;
+    padding: 5px;
+}
+
+.footer-text-top{
+    display: flex;
+    flex-direction: column;
+}
+.footer-text-bot{
+    display: flex;
+    flex-direction: column;
+}
