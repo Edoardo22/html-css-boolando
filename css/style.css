@@ -47,19 +47,30 @@ a {
     flex-wrap: wrap;
     padding-top: 100px;
 }
-
+.icon img{
+    width: 20px;
+    height: 20px;
+    filter: brightness(0) invert(1);
+}
 .card {
     width: calc(100% / 3 - 10px);
     max-height: 100%;
+    padding-bottom: 20px;
 }
 .card-img{
     position: relative;
 }
-.card-img img{
-    max-width: 100%;
-    max-height: 100%;
-}
 
+.prezzo-scontato{
+    color: red;
+}
+.prezzo-intero{
+    color: rgba(0, 0, 0, 0.700);
+    text-decoration: line-through;
+}
+.marca{
+    color: rgba(0, 0, 0, 0.700);
+}
 .img-bot-text{
     position: absolute;
     left: 0;
@@ -83,12 +94,74 @@ a {
     top: 10px;
     right: 0;
     background-color: white;
+    font-size: 40px;
+    padding: 5px 15px;
 }
 
 footer{
     margin-top: 50px;
     width: 100%;
     background-color: black;
+}
+
+.img-1 { 
+    background-image: url(../img/1.webp);
+    background-size: cover;
+    height: 592px;
+}
+
+.img-1:hover{
+    background-image: url(../img/1b.webp);
+}
+
+.img-2 { 
+    background-image: url(../img/2.webp);
+    background-size: cover;
+    height: 592px;
+}
+
+.img-2:hover{
+    background-image: url(../img/2b.webp);
+}
+
+.img-3 { 
+    background-image: url(../img/3.webp);
+    background-size: cover;
+    height: 592px;
+}
+
+.img-3:hover{
+    background-image: url(../img/3b.webp);
+}
+
+.img-4 { 
+    background-image: url(../img/4.webp);
+    background-size: cover;
+    height: 592px;
+}
+
+.img-4:hover{
+    background-image: url(../img/4b.webp);
+}
+
+.img-5 { 
+    background-image: url(../img/5.webp);
+    background-size: cover;
+    height: 592px;
+}
+
+.img-5:hover{
+    background-image: url(../img/5b.webp);
+}
+
+.img-6 { 
+    background-image: url(../img/6.webp);
+    background-size: cover;
+    height: 592px;
+}
+
+.img-6:hover{
+    background-image: url(../img/6b.webp);
 }
 
 .container-footer{
@@ -113,4 +186,8 @@ footer{
 .footer-text-bot{
     display: flex;
     flex-direction: column;
+}
+
+.text-big{
+    font-size: 20px;
 }
